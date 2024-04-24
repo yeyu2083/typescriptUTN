@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gastos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Gastos Personales</h1>
+        <form id="expense-form" class="expense-form">
+            <div class="input-group">
+                <input type="text" id="expense-name" name="expense-name" placeholder="Nombre del Gasto" required>
+            </div>
+            <div class="input-group">
+                <input type="number" id="expense-amount" name="expense-amount" placeholder="Monto ($)" required>
+            </div>
+            <div class="input-group">
+                <select id="expense-category" name="expense-category">
+                    <option value="" disabled selected>Categoría</option>
+                    <option value="alimentos">Alimentos</option>
+                    <option value="transporte">Transporte</option>
+                    <option value="entretenimiento">Entretenimiento</option>
+                    <option value="salud">Salud</option>
+                    <option value="otros">Otros</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Agregar Gasto</button>
+        </form>
+        <div id="expense-list" class="expense-list">
+            <h2>Gastos Registrados</h2>
+            <ul id="expense-list-items">
+                <!-- Los gastos agregados aparecerán aquí -->
+            </ul>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
+

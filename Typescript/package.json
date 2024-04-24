@@ -1,0 +1,26 @@
+{
+  "name": "trabajofinal",
+  "version": "1.0.0",
+  "description": "con typescript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yeyu2083/typescriptUTN.git"
+  },
+  "author": "Yesica Windecker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeyu2083/typescriptUTN/issues"
+  },
+  "homepage": "https://github.com/yeyu2083/typescriptUTN#readme",
+  "devDependencies": {
+    "@types/chart.js": "^2.9.41"
+  },
+  "dependencies": {
+    "apexcharts": "^3.49.0"
+  }
+}
